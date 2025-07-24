@@ -1,0 +1,301 @@
+.navbar{
+    background-color:rgb(178, 233, 255);
+    border-bottom:3px solid skyblue;
+    height: 70px;
+}
+#testytime{
+    color: #007bff;
+    margin-left: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cartbtn:hover{
+    opacity: 0.5;
+    border-radius: 20%;
+    transform: scale(1.2);
+    color: blue;
+}
+#widgetbtn:hover{
+    opacity: 0.5;
+    border-radius: 50%;
+    transform: scale(1.2);
+    color: blue;
+}
+ .hero {
+      position: relative;
+      background-image: url("./TestyTime/testyimages/fooditems.jpeg"); /* Replace with your food image */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100vw;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      right: 110px;
+      bottom: 23px;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.4); /* Optional dark overlay for readability */
+    }
+
+    .text {
+      position: relative;
+      z-index: 1; /* Ensures it appears above the overlay */
+      font-size: 40px;
+      font-weight: bold;
+    }
+.about{
+  text-align: center;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.hero-section {
+  position: relative;
+  height: 400px;
+  background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100vw;
+  right: 110px;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: 0;
+}
+.menue{
+  text-align: center;
+  line-height: 10px;
+}
+
+.menu-item:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 4px #ffc10750; /* yellow glow */
+}
+.menu-box {
+  transition: box-shadow 0.4s ease, transform 0.3s ease;
+  border: 1px solid #dee2e6;
+  border-radius: 1rem;
+}
+
+.menu-box:hover {
+  box-shadow: 0 0 10px 4px rgba(255, 193, 7, 0.6); /* Yellow glow */
+  transform: scale(1.01);
+  border: 2px solid black;
+}
+#viewmenuebtn{
+  border:solid 1px #007bff;
+  border-radius: 20px;
+margin-bottom: 50px; 
+padding: 7px 30px;
+color: #007bff;
+background-color: white;
+font-family:Arial, Helvetica, sans-serif;
+font-size: large;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-left: 500px;
+text-decoration: none;
+}
+.booktablecontainer{
+      position: relative;
+      background-image: url("./TestyTime/testyimages/table.jpeg"); /* Replace with your food image */
+      background-size: cover;
+      background-position: center;
+      height: 130vh;
+      width: 100vw;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      right: 110px;
+      bottom: 23px;
+      float: left;
+      padding-top: 30px;
+    }
+.table_form{
+  display: inline-block;
+  width: 400px;
+  background-color: white;
+  height:90vh;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 30px;
+}
+.table_form input,select,option{
+  width: 300px;
+  line-height: 40px;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 1px solid #ddf;
+}
+.table_form select{
+    padding:10px 20px ;
+}
+
+#booktable{
+  width: 200px;
+  text-transform: uppercase;
+}
+/* Navbar.css */
+.dropdown-menu-box {
+  position: absolute;
+  top: 60px; /* Adjust based on navbar height */
+  right: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.dropdown-list {
+  list-style: none;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.dropdown-list li {
+  margin: 10px 0;
+}
+
+.dropdown-list li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+
+.login-container {
+   background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 500px;
+  right: 120px;
+  float:left;
+  bottom: 23px;
+}
+
+.login-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.login-content input {
+  width: 250px;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+.login-content button {
+  padding: 12px 25px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-content h1 {
+  margin-bottom: 10px;
+}
+
+
+ @media (max-width: 768px) {
+  .login-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .login-heading {
+    font-size: 22px;
+  }
+}
+
+.tabletext{
+  line-height: 5px;
+  text-align: center;
+}
+
+table tr{
+  display: flex;
+  column-gap: 350px;
+  border: none;
+  margin-left: 50px;
+  height: 50px;
+}
+
+tr:hover{
+  background-color: #ddd;
+}
+#cartstyle{
+    background-image: url("../src/TestyTime/testyimages/serving_food.jpeg");
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 500px;
+  right: 120px;
+  float:left;
+  bottom: 23px;
+  
+}
+
+.book-cart{
+  margin-top:   200px;
+}
+#cart{
+  float: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+ margin-left: 450px;
+  color:white;
+
+}
